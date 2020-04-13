@@ -2,20 +2,46 @@ function generateMarkdown(data) {
   return `
 # ${data.title}
 
+## Description
+
+${data.desctiption}
+
+## Table of Contents
+
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
+* [Tests](#tests)
+* [Questions](#questions)
+
+##Installation
+
+${data.installation}
+
+## Usage
+
+${data.usage}
+
+## Credits
+
+${data.credits}
+${data.gitHubProfilePicture}
+${data.gitHubEmail}
+
+## License
+
+${data.license}
+
+## Tests
+
+${data.tests}
+
+## Questions
+
+${data.questions}
+
 `;
 }
 
 module.exports = generateMarkdown;
-
-  // * At least one badge
-// * Project title
-// * Description
-// * Table of Contents
-// * Installation
-// * Usage
-// * License
-// * Contributing
-// * Tests
-// * Questions
-//   * User GitHub profile picture
-//   * User GitHub email
