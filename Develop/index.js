@@ -54,7 +54,6 @@ const questions = [
 function writeToFile(fileName, data) {
 }
 
-
 async function init() {
     console.log("hi")
     try {
