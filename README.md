@@ -2,7 +2,7 @@
 
 ## Description
 
-README Generator is a time saving command-line application that creates a README.md from users input. 
+README Generator is a time saving node.js based command-line application that creates a README.md from users input. 
 
 The README will be generated based of the following prompts answered by the user: 
 
