@@ -17,8 +17,11 @@ The README will be generated based of the following prompts answered by the user
 - Questions
 - User GitHub email
 
+## Installation
+Node is required to run the application. To install the app run the following in the terminal:
+- `npm install` to download node modules
+- `node index.js` to start the app
+
 ## Contributing
 
- Carter Neal 
-
-- GitHub: [@nealwc](https://github.com/nealwc)
+- Carter Neal ([@nealwc](http://github.com/nealwc))
