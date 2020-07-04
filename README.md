@@ -22,6 +22,10 @@ Node is required to run the application. To install the app run the following in
 - `npm install` to download node modules
 - `node index.js` to start the app
 
+### Resources Utilized
+- [node.js](https://nodejs.org/en/) to run js outside a web browser
+- [inquirer.js](https://www.npmjs.com/package/inquirer) command line interface
+
 ## Contributing
 
 - Carter Neal ([@nealwc](http://github.com/nealwc))
