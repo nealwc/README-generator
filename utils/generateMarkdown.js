@@ -1,10 +1,34 @@
+function generateProjectUrl(github, title) {
+  const kebabCaseTitle = title.toLowerCase().split(" ").join("-");
+  return `https://github.com/${github}/${kebabCaseTitle}`;
+}
+
+function renderLicenseBadge(license, github, title) {
+  if (license !== "None") {
+    return `[![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)](${generateProjectUrl(github, title)})`
+  }
+  return ''
+}
+
+function renderLicenseSection(license) {
+  if (license !== "None") {
+    return (
+      `## License
+
+This project is licensed under the ${license} license.`
+    )
+  }
+  return ''
+}
+
 function generateMarkdown(data) {
   return `
 # ${data.title}
+${renderLicenseBadge(data.license, data.github, data.title)}
 
 ## Description
 
-${data.desctiption}
+${data.description}
 
 ## Table of Contents
 
@@ -15,19 +39,23 @@ ${data.desctiption}
 * [Tests](#tests)
 * [Questions](#questions)
 
-##Installation
+## Installation
 
+To install the dependencies run the following command in the terminal:
+
+\`\`\`
 ${data.installation}
+\`\`\`
 
 ## Usage
 
 ${data.usage}
 
+${renderLicenseSection(data.license)}
+
 ## Credits
 
-${data.credits}
-${data.gitHubProfilePicture}
-${data.gitHubEmail}
+[${data.github}](http://github.com/${data.github})
 
 ## License
 
@@ -35,11 +63,13 @@ ${data.license}
 
 ## Tests
 
-${data.tests}
+\`\`\`
+${data.test}
+\`\`\`
 
 ## Questions
 
-${data.questions}
+Please contact [${data.github}](http://github.com/${data.github}) with any questions about the repo.
 
 `;
 }

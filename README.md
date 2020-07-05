@@ -1,31 +1,51 @@
-# README Generator
+
+# readme gen
+[![GitHub license](https://img.shields.io/badge/license-APACHE 2.0-blue.svg)](https://github.com/nealwc/readme-gen)
 
 ## Description
 
-README Generator is a time saving node.js based command-line application that creates a README.md from users input. 
+so good
 
-The README will be generated based of the following prompts answered by the user: 
+## Table of Contents
 
-- Project title
-- Description
-- Table of Contents
-- Installation
-- Usage
-- License
-- Contributing
-- Tests
-- Questions
-- User GitHub email
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
+* [Tests](#tests)
+* [Questions](#questions)
 
 ## Installation
-Node is required to run the application. To install the app run the following in the terminal:
-- `npm install` to download node modules
-- `node index.js` to start the app
 
-### Resources Utilized
-- [node.js](https://nodejs.org/en/) to run js outside a web browser
-- [inquirer.js](https://www.npmjs.com/package/inquirer) command line interface
+To install the dependencies run the following command in the terminal:
 
-## Contributing
+```
+npm i
+```
 
-- Carter Neal ([@nealwc](http://github.com/nealwc))
+## Usage
+
+everything
+
+## License
+
+This project is licensed under the APACHE 2.0 license.
+
+## Credits
+
+[nealwc](http://github.com/nealwc)
+
+## License
+
+APACHE 2.0
+
+## Tests
+
+```
+npm test
+```
+
+## Questions
+
+Please contact [nealwc](http://github.com/nealwc) with any questions about the repo.
+
