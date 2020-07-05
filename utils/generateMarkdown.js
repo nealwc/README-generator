@@ -34,8 +34,9 @@ ${data.description}
 
 * [Installation](#installation)
 * [Usage](#usage)
-* [Credits](#credits)
 * [License](#license)
+* [Contributing](#contributing)
+* [Credits](#credits)
 * [Tests](#tests)
 * [Questions](#questions)
 
@@ -53,9 +54,9 @@ ${data.usage}
 
 ${renderLicenseSection(data.license)}
 
-## Credits
+## Contributing
 
-[${data.github}](http://github.com/${data.github})
+${data.contributing}
 
 ## License
 
